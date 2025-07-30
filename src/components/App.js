@@ -10,6 +10,7 @@ function App() {
       <Header name={blogData.name} />
       <About image={blogData.image} about={blogData.about} />
       <ArticleList posts={blogData.posts} /> {/* ✅ Pass posts explicitly */}
+      <p>Pass</p>
     </div>
   );
 }
